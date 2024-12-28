@@ -17,7 +17,7 @@ def move_mouse_randomly():
         print(f"Mouse moved to: ({random_x}, {random_y})")
 
         # Wait for 1 hour (3600 seconds)
-        time.sleep(30)
+        time.sleep(10)
 
 
 if __name__ == "__main__":
