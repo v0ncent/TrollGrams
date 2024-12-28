@@ -10,13 +10,13 @@ py -m pip install -r requirements.txt
 
 :: Set the desktop path and navigate to FunnyKeyLogger folder
 set desktopPath=%USERPROFILE%\Desktop
-cd /d %desktopPath%\FunnyKeyLogger
+cd /d %desktopPath%\MouseMover
 
 :: Use pyinstaller to package the KeyLogger.py file
-pyinstaller --onefile KeyLogger.py
+pyinstaller --onefile Move_Mouse.py
 
 :: Navigate to the dist folder and run the executable
-cd /d %desktopPath%\FunnyKeyLogger\dist\
+cd /d %desktopPath%\MouseMover\dist\
 KeyLogger.exe
 
 pause
