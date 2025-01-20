@@ -1,2 +1,5 @@
 
 .idea
+/MouseMover/Move_Mouse.spec
+/MouseMover/dist/
+/MouseMover/build/
